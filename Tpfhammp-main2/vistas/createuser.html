@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHAMMP</title>
+    <link rel="stylesheet" href="../styles/estilocabina.css">
+    <link rel="stylesheet" href="../styles/estilotabla.css">
+    <link rel="stylesheet" href="../styles/empleado.css">
+</head>
+<body>
+    <div class="agregarbtn">
+        <a href="../vistas/admin.php">VOLVER</a>
+    </div>
+    
+    <div class="Edicion">
+    <form action="../clases/admin.php"method="post">
+        <h1 class="crear">Crear cuenta </h1>
+
+        <input type="text" name="nombre" placeholder="Nombre:">
+        <input type="email" name="email" placeholder="Email:">
+        <input type="text" name="contra" placeholder="Contraseña:">
+        <select name="turno">
+            <option value="MAÑANA">MAÑANA</option>
+            <option value="TARDE">TARDE</option>
+            <option value="NOCHE">NOCHE</option>
+        </select>
+        <input type="submit" name="registro" value="Registrar">
+       
+        </div>
+        
+    </form>
+</div>
+</body>
+</html>

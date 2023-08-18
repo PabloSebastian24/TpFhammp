@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/styleindex.css">
+    <title>FHAMMP LOGUIN</title>
+</head>
+<body>
+    <div id="pagina">  <!-- DIV PARA LA PAGINA  -->
+        <div id="cabecera"> <!-- DIV PARA LA CABECERA  -->
+             <header>
+                <a href="#" class="logo">
+                <img src="../Imagenes/logo.png" alt="logocompania">
+                <h2 class="FHAMMP">FHAMMP PEAJES</h2>
+                </a>
+                <nav>
+                <a href="" class="nav-link">INICIO</a>
+                <a href="" class="nav-link">SOBRE NOSOTROS</a>
+                <a href="" class="nav-link">CONTACTO</a>
+                </nav>
+            </header> 
+        </div>
+       
+     <div id="contenido"> <!-- DIV PARA EL CONTENIDO  -->
+             <div class="contenedor"> <!-- DIV PARA FORMULARIO DE LOGUIN  -->
+                <form class="form" method="post" action="../procesos/procesar.php" > <!-- FORMULARIO lOGUIN  -->
+                    <span class="input-span">
+                    <label for="email" class="label">Email</label> <!-- TITULO DE LO QUE INGRESA  -->
+                    <input type="email" name="correo" id="email"></span> <!-- INPUT DONDE INGRESA LOS DATOS HACER VALIDACION PHP  -->
+                    <span class="input-span">
+                    <label for="password" class="label">Password</label> <!-- TITULO DE LO QUE INGRESA  -->
+                    <input type="password" name="contrasenia" id="password"></span> <!-- INPUT DE LA CONTRASEÑA VALIDACION PHP  -->
+                    <span class="span"><a href="">¿Olvido su contraseña? </a></span> 
+                    <input class="submit" type="submit" value="Iniciar" name="registro">  <!-- boton de loguin -->
+                   
+                </form>
+            </div>
+        </div>
+  <div id="pie">2023 &copy; FHAMMP</div> <!-- foooter-->
+</div>
+
+
+</body>
+
+</html>

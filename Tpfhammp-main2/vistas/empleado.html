@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/estilocabina.css">
+    <link rel="stylesheet" href="../Styles/estilotabla.css">
+ 
+    <title>Empleado Fhammp</title>
+</head>
+<body>
+
+    <div class="nav">
+
+        <a href="../vistas\empleado.html" class="logo">
+        <img src="../Imagenes/logo.png">
+        </a>
+       
+     </div>
+
+    <div class="navegacion">
+      
+        <div class="btnsalir">
+           <a href="../vistas/index.html"> Cerrar Sesion</a>
+        </div>
+            <a href="#Precios" class="precios">Cabinas de vehiculos</a>
+        </div>
+  
+    <br><br><br><br>
+    <div class="Edicion">
+        <form action="../clases/empleado.php" method="Post">
+            <a style="text-decoration: none;">Seleccion el peso : </a> <br>
+            <select name="peso">
+                <option value="liviano">Liviano</option>
+                <option value="pesado">Pesado</option>
+            </select>
+
+            <br><a style="text-decoration: none;">Seleccione el eje</a><br>
+
+            <select name="ejes">
+                
+                <option value="2 ejes">2 ejes</option>
+                <option value="3 ejes">3 ejes</option>
+                <option value="4 ejes">4 ejes</option>
+                <option value="5 ejes o mas">5 ejes o mas</option>
+            </select>
+
+            <br><a style="text-decoration: none;">Seleccione el horario</a><br>
+
+            <select name="hora">
+                <option value="Hora Pico">Hora Pico </option>
+                <option value="Hora Normal">Hora Normal</option>         
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    
+    
+</body>
+</html>

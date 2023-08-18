@@ -1,0 +1,60 @@
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: sans-serif;
+  }
+
+ body{
+    position: relative;
+    min-height: 100%;
+    background-image: url(../Imagenes/LOGOFHAMP.png);
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    background-repeat: no-repeat;
+ }
+
+
+
+ .formulariopeaje{
+    background-color:#414141;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 25px 20px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    margin:auto;
+    margin-top:90px;
+ }
+
+ /* Estilo para el formulario */
+form {
+   width: 300px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+input[type="submit"] {
+   align-items: center;
+   background-color: #3d90e2;
+   color: white;
+   cursor: pointer;
+}

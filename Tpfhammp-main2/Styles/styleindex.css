@@ -1,0 +1,175 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: sans-serif;
+  }
+
+  #cabecera{
+   display: grid;
+   align-items: center;
+  
+  }
+
+  header{
+    display:flex;
+    min-height: 70px;
+    background-color: #414141;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+  
+  
+  #pagina {
+    position: relative;
+    min-height: 100%;
+    background-image: url(../Imagenes/este.gif);
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    background-repeat: no-repeat;
+  }
+  
+  #contenido {
+    padding-bottom:50px;
+    
+  }
+  
+  #pie {
+    height:50px;
+    line-height:50px;
+    background:black;
+    color:#F6BB41;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+
+  .logo{
+    display:flex;
+    align-items:center;
+  }
+  
+  .logo img{
+    height: 50px;
+    margin-right: 10px;
+    
+  
+  
+  }
+  a{
+    text-decoration: none;
+    color:#efefef;
+   
+  }
+  nav a{
+    font-weight: 600;
+    padding-right: 10px;
+   
+  }
+  nav a:hover{
+    color:#896A29;
+  }
+  @media(max-width:700px){
+    header{
+      flex-direction:column;
+    }
+    nav{
+      padding: 10px 0px;
+    }
+  }
+  
+  
+  h2{
+    padding:0 0 15px 0;
+  }
+.contenedor{
+  background-color:#414141;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  padding: 25px 20px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  margin:auto;
+  margin-top:90px;
+
+}
+form {
+  --bg-light: #efefef;
+  --bg-dark: #707070;
+  --clr: #F6BB41;
+  --clr-alpha: #9c9c9c60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form .input-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  outline: 2px solid var(--clr);
+}
+
+.label {
+  align-self: flex-start;
+  color: var(--clr);
+  font-weight: 600;
+}
+
+form .submit {
+  padding: 1rem 0.75rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+form .submit:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
+
+.span {
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+
+.span a {
+  color: var(--clr);
+}
